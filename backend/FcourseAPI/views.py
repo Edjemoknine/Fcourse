@@ -11,7 +11,7 @@ class CategoriesView(generics.ListCreateAPIView):
     queryset = Category.objects.all()
     serializer_class = CategorySerializer
 
-class CategoryView(generics.RetrieveUpdateDestroyAPIView):
+class CategoryView(generics.RetrieveAPIView):
     """
     Retrieve, update, or delete a category instance.
     """
@@ -25,7 +25,7 @@ class CoursesView(generics.ListCreateAPIView):
     queryset = Course.objects.all()
     serializer_class = CourseSerializer
 
-class CourseView(generics.RetrieveUpdateDestroyAPIView):
+class CourseView(generics.RetrieveAPIView):
     """
     Retrieve, update, or delete a course instance.
     """
