@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <div className="max-w-6xl mx-auto p-8">
+      <div className="max-w-7xl mx-auto p-8 px-4">
         <div className="flex justify-between items-center">
           <div>
             <Link href={"/"}>
