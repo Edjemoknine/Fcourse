@@ -31,13 +31,18 @@ const CourseCard = ({ image, title, category, link }: Props) => {
                 </svg>
               </button>
             </div>
-            <Image
-              src="https://images.unsplash.com/photo-1577982787983-e07c6730f2d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2059&q=80"
-              alt="Just a flower"
-              className=" w-full h-64  object-fill  rounded-2xl"
-              width={200}
-              height={100}
-            />
+            <Link href={link}>
+              <Image
+                src={
+                  image ??
+                  "https://images.unsplash.com/photo-1577982787983-e07c6730f2d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2059&q=80"
+                }
+                alt="Just a flower"
+                className=" w-full h-64  object-fill  rounded-2xl"
+                width={200}
+                height={100}
+              />
+            </Link>
           </div>
           <div className="flex-auto justify-evenly">
             <div className="flex flex-wrap ">
@@ -62,13 +67,15 @@ const CourseCard = ({ image, title, category, link }: Props) => {
               </div>
             </div>
 
-            <div className="flex space-x-2 pt-6 text-sm font-medium justify-start">
+            <div className="flex space-x-2 pt-6 text-sm  font-medium justify-between">
               <div className="text-xl text-white font-semibold mt-1">
                 $240.00
               </div>
-              <button className="transition ease-in duration-300 inline-flex items-center text-sm font-medium mb-2 md:mb-0 bg-purple-500 px-5 py-2 hover:shadow-lg tracking-wider text-white rounded-full hover:bg-purple-600 ">
-                <span>View</span>
-              </button>
+              <Link href={link}>
+                <button className="transition ease-in duration-300 inline-flex items-center text-sm font-medium mb-2 md:mb-0 bg-purple-500 px-5 py-2 hover:shadow-lg tracking-wider text-white rounded-full hover:bg-purple-600 ">
+                  <span>View</span>
+                </button>
+              </Link>
             </div>
           </div>
         </div>

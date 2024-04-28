@@ -2,7 +2,12 @@ import CourseCard from "@/components/shared/CourseCard";
 import React from "react";
 
 const Courses = () => {
-  const courses = [1, 2, , 3, 4, 5, 6, 7, 8, 9, 10];
+  const courses = [
+    { id: 1, image: "", link: "", category: "" },
+    { id: 2, image: "", link: "", category: "" },
+    { id: 3, image: "", link: "", category: "" },
+    { id: 4, image: "", link: "", category: "" },
+  ];
   return (
     <section className="max-w-7xl mx-auto px-4 p-8">
       <h1 className="text-4xl font-bold">All Courses:</h1>
@@ -13,7 +18,7 @@ const Courses = () => {
             link={""}
             title={""}
             category={""}
-            key={course}
+            key={course.id}
           />
         ))}
       </div>
