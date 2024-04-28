@@ -37,7 +37,7 @@ export function SearchForm() {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className=" flex items-center   mt-10"
+        className=" flex items-center    mt-10"
       >
         <FormField
           control={form.control}
@@ -46,7 +46,7 @@ export function SearchForm() {
             <FormItem>
               <FormControl>
                 <Input
-                  className="p-6 rounded-r-none px-20"
+                  className="p-8 rounded-r-none text-lg px-20"
                   placeholder="What do you want to learn"
                   {...field}
                 />
@@ -55,7 +55,7 @@ export function SearchForm() {
             </FormItem>
           )}
         />
-        <Button className="p-6 rounded-l-none" type="submit">
+        <Button className="py-8 rounded-l-none text-lg" type="submit">
           Search Course
         </Button>
       </form>

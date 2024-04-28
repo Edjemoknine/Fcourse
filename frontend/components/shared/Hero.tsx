@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <section className="mx-auto max-w-2xl sm:pb-6 px-4 lg:max-w-7xl lg:px-8">
       <div className="mb-8  flex flex-wrap items-center justify-between md:mb-16">
-        <div className="mb-6  flex w-full flex-col justify-center sm:mb-12 md:mb-0 lg:w-1/2 lg:pt-40">
-          <h1 className="mb-4 flex flex-col gap-3 text-black text-3xl font-semibold md:text-5xl md:mb-8 ">
+        <div className="mb-6  flex w-full flex-col gap-4 justify-center sm:mb-12 md:mb-0 lg:w-1/2 lg:pt-20">
+          <h1 className="mb-4 flex flex-col gap-4 text-black text-3xl font-semibold md:text-5xl md:mb-8 ">
             <span className="text-primary/30">Access Courses for free</span>
             <span className="text-[#161E64]">Education Platform</span>
             <span className="text-primary">in The World</span>
@@ -19,7 +19,7 @@ const Hero = () => {
           <SearchForm />
         </div>
         <div className=" relative flex gap-8 w-full   md:w-1/2">
-          <div className="relative left-12 top-16 z-10 -ml-12 overflow-hidden rounded-lg md:left-0 md:top-24 lg:ml-0">
+          <div className="relative left-12 top-16 z-10 -ml-12 overflow-hidden rounded-lg md:left-0 md:top-36 lg:ml-0">
             <Image
               src={"/learn.jpg"}
               width={400}
@@ -29,7 +29,7 @@ const Hero = () => {
               priority
             />
           </div>
-          <div className="overflow-hidden rounded-lg ">
+          <div className="overflow-hidden rounded-lg relative md:-top-6">
             <Image
               src={"/buro.jpg"}
               width={400}
@@ -40,7 +40,7 @@ const Hero = () => {
             />
           </div>
 
-          <div className="absolute bg-[#7D7AFB] text-white md:text-2xl left-24 px-10 rounded-xl p-4 bottom-5 z-10 ">
+          <div className="absolute bg-[#7D7AFB] text-white md:text-2xl left-40 px-10 rounded-xl p-4 bottom-0 z-10 ">
             <h3>
               Get 30% off <br /> on every 1st month <br /> Expert teachers
             </h3>

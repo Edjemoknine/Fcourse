@@ -22,7 +22,9 @@ const Navigation = () => {
           {link.label}
         </Link>
       ))}
-      <Button className="px-8">Contact Us</Button>
+      <Button asChild className="px-8">
+        <Link href={"/contact"}>Contact Us</Link>
+      </Button>
     </nav>
   );
 };
