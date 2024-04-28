@@ -1,14 +1,15 @@
 import CourseCard from "@/components/shared/CourseCard";
 import React from "react";
 
-// const getCourses = async () => {
-//   const response = await fetch("http://127.0.0.1:8000/api/v1/courses");
-//   const data = await response.json();
-//   return data;
-// };
+const getCourses = async () => {
+  // const response = await fetch("http://127.0.0.1:8000/api/v1/courses");
+  const response = await fetch("https://dummyjson.com/products");
+  const data = await response.json();
+  return data;
+};
 const Courses = async ({ searchParams }: any) => {
   const query = searchParams.query;
-  // const courses = await getCourses();
+  const coursess = await getCourses();
   const courses = [
     {
       id: 1,
