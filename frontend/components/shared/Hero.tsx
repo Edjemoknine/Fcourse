@@ -42,7 +42,9 @@ const Hero = () => {
 
           <div className="absolute bg-[#7D7AFB] text-white md:text-2xl left-40 px-10 rounded-xl p-4 bottom-0 z-10 ">
             <h3>
-              Get 30% off <br /> on every 1st month <br /> Expert teachers
+              Explode you career <br />
+              with free courses <br />
+              on every 1st month
             </h3>
           </div>
         </div>
