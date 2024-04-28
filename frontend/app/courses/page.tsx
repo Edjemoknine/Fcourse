@@ -2,40 +2,39 @@ import CourseCard from "@/components/shared/CourseCard";
 import React from "react";
 
 const getCourses = async () => {
-  // const response = await fetch("http://127.0.0.1:8000/api/v1/courses");
-  const response = await fetch("https://dummyjson.com/products");
+  const response = await fetch("http://127.0.0.1:8000/api/v1/courses/");
   const data = await response.json();
   return data;
 };
 const Courses = async ({ searchParams }: any) => {
   const query = searchParams.query;
-  const coursess = await getCourses();
-  const courses = [
-    {
-      id: 1,
-      title: "Python",
-      description: "Course",
-      instructor: "mohamed",
-      category: "web",
-      link: "",
-    },
-    {
-      id: 2,
-      title: "React",
-      description: "Course",
-      instructor: "kamel",
-      category: "app",
-      link: "",
-    },
-    {
-      id: 3,
-      title: "Next.js",
-      description: "Course",
-      instructor: "ali",
-      category: "desktop",
-      link: "",
-    },
-  ];
+  const courses = await getCourses();
+  // const courses = [
+  //   {
+  //     id: 1,
+  //     title: "Python",
+  //     description: "Course",
+  //     instructor: "mohamed",
+  //     category: "web",
+  //     link: "",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "React",
+  //     description: "Course",
+  //     instructor: "kamel",
+  //     category: "app",
+  //     link: "",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "Next.js",
+  //     description: "Course",
+  //     instructor: "ali",
+  //     category: "desktop",
+  //     link: "",
+  //   },
+  // ];
 
   const filtredCourses =
     query !== undefined
