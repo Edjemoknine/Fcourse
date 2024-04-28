@@ -1,13 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-type Props = {
-  image: string;
-  title: string;
-  category: string;
-  link: string;
+export type Props = {
+  course: {
+    image: string;
+    title: string;
+    description: string;
+    category: string;
+    link: string;
+    instructor: string;
+  };
 };
-const CourseCard = ({ image, title, category, link }: Props) => {
+const CourseCard = ({ course }: Props) => {
   return (
     <div className="max-w-sm w-full bg-gray-400 shadow-lg rounded-xl p-6">
       <div className="flex flex-col ">
@@ -23,18 +27,18 @@ const CourseCard = ({ image, title, category, link }: Props) => {
                   stroke="currentColor"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
                   />
                 </svg>
               </button>
             </div>
-            <Link href={link}>
+            <Link href={course.link}>
               <Image
                 src={
-                  image ??
+                  course.image ??
                   "https://images.unsplash.com/photo-1577982787983-e07c6730f2d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2059&q=80"
                 }
                 alt="Just a flower"
@@ -58,11 +62,13 @@ const CourseCard = ({ image, title, category, link }: Props) => {
                 <span className="text-gray-600 whitespace-nowrap mr-3">
                   4.60
                 </span>
-                <span className="mr-2 text-gray-600 uppercase">Marketing</span>
+                <span className="mr-2 text-gray-600 uppercase">
+                  {course.category}
+                </span>
               </div>
               <div className="flex items-center w-full justify-between min-w-0 ">
                 <h2 className="text-lg mr-auto cursor-pointer text-gray-200 line-clamp-2 ">
-                  Lorem ipsum is placeholder text commonly used in the graphic
+                  {course.description}
                 </h2>
               </div>
             </div>
@@ -71,7 +77,7 @@ const CourseCard = ({ image, title, category, link }: Props) => {
               <div className="text-xl text-white font-semibold mt-1">
                 $240.00
               </div>
-              <Link href={link}>
+              <Link href={course.link}>
                 <button className="transition ease-in duration-300 inline-flex items-center text-sm font-medium mb-2 md:mb-0 bg-purple-500 px-5 py-2 hover:shadow-lg tracking-wider text-white rounded-full hover:bg-purple-600 ">
                   <span>View</span>
                 </button>
