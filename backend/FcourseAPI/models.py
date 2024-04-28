@@ -16,7 +16,6 @@ class Course(models.Model):
     title = models.CharField(max_length=255)
     description = models.TextField()
     link = models.URLField(max_length=255)
-    image = models.ImageField(upload_to="course_images/")
     categories = models.ManyToManyField(Category, related_name="courses")
 
     def __str__(self):
