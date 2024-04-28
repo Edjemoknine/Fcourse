@@ -27,7 +27,7 @@ The F Course project was developed by a dedicated team of software engineers and
       </a>
       <br/>
       <a href="https://twitter.com/badrbnh001" title="Twitter"><img src="https://img.shields.io/badge/-Twitter-blue?style=flat&logo=twitter&logoColor=white" alt="Twitter"></a>
-      <a href="[https://www.linkedin.com/in/johndoe](https://www.linkedin.com/in/badreddine-bentiah-576802265/)" title="LinkedIn"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+      <a href="https://www.linkedin.com/in/johndoe](https://www.linkedin.com/in/badreddine-bentiah-576802265/" title="LinkedIn"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
     </td>
     <td align="center">
       <a href="https://github.com/janesmith">
