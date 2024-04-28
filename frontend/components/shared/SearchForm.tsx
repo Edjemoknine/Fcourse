@@ -37,7 +37,7 @@ export function SearchForm() {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className=" flex items-center   mt-6"
+        className=" flex items-center   mt-10"
       >
         <FormField
           control={form.control}

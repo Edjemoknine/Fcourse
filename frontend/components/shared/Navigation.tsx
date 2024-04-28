@@ -4,7 +4,7 @@ import React from "react";
 import { Button } from "../ui/button";
 const links = [
   { label: "Home", href: "/" },
-  { label: "About Us", href: "/aboutUs" },
+  { label: "About Us", href: "/about" },
   { label: "Courses", href: "/courses" },
 ];
 const Navigation = () => {
