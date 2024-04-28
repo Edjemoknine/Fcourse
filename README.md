@@ -1,18 +1,13 @@
 # F Course
 
-F Course is a web-based platform that enables individuals and organizations to create and publish free online courses accessible to people around the world. With this software, users can share their knowledge and expertise by creating comprehensive courses on various subjects.
+FCourses is a user-friendly web application designed to simplify the process of discovering high-quality free courses available on the internet. Whether you're looking to enhance your skills, learn something new, or advance your career, FCourses provides a curated selection of free courses across various subjects and disciplines.
 
-## Project Description
-
-F Course aims to democratize education by providing a user-friendly platform where anyone can create and share educational content for free. The platform offers a range of features that enable course creators to organize their content effectively, including support for text, images, videos, and interactive elements. Learners can browse through the available courses, enroll in courses of their interest, and track their progress.
+With FCourses, users can easily browse through an extensive collection of free courses, conveniently organized by topic, difficulty level, duration, and user ratings. The platform offers a seamless and intuitive interface, making it effortless for users to find the perfect course to suit their learning objectives.
 
 ## Key Features
 
-- **Course Creation**: Users can create their own courses by adding modules, lessons, quizzes, and other educational materials.
+- **Comprehensive Course Catalog**: Access a diverse range of free courses spanning multiple subjects, including programming, design, business, language learning, and more..
 - **Course Discovery**: Learners can search and browse through a comprehensive catalog of courses based on categories, popularity, or specific keywords.
-- **User Engagement**: Users can like, share, and comment on courses, fostering a sense of community and encouraging collaboration.
-- **Progress Tracking**: Learners can track their progress through courses, complete assignments, and earn certificates upon successful completion.
-- **User Profiles**: Users have personalized profiles where they can showcase their courses, achievements, and learning history.
 
 ## Technologies Used
 
@@ -25,14 +20,14 @@ The F Course project was developed by a dedicated team of software engineers and
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/johndoe">
-        <img src="https://avatars.githubusercontent.com/u/1234567?v=4" width="100px;" alt="John Doe"/>
+      <a href="https://github.com/badrbnh">
+        <img src="https://avatars.githubusercontent.com/u/1234567?v=4" width="100px;" alt="Badreddine bentiah"/>
         <br/>
-        <sub><b>John Doe</b></sub>
+        <sub><b>Badreddine Bentiah</b></sub>
       </a>
       <br/>
-      <a href="https://twitter.com/johndoe" title="Twitter"><img src="https://img.shields.io/badge/-Twitter-blue?style=flat&logo=twitter&logoColor=white" alt="Twitter"></a>
-      <a href="https://www.linkedin.com/in/johndoe" title="LinkedIn"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+      <a href="https://twitter.com/badrbnh001" title="Twitter"><img src="https://img.shields.io/badge/-Twitter-blue?style=flat&logo=twitter&logoColor=white" alt="Twitter"></a>
+      <a href="[https://www.linkedin.com/in/johndoe](https://www.linkedin.com/in/badreddine-bentiah-576802265/)" title="LinkedIn"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
     </td>
     <td align="center">
       <a href="https://github.com/janesmith">
@@ -65,8 +60,8 @@ The F Course project was developed by a dedicated team of software engineers and
       <a href="https://www.linkedin.com/in/emilydavis" title="LinkedIn"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
     </td>
     <td align="center">
-      <a href="https://github.com/davidwilson">
-        <img src="https://avatars.githubusercontent.com/u/9876543?v=4" width="100px;" alt="David Wilson"/>
+      <a href="https://github.com/badrbnh">
+        <img src="https://avatars.githubusercontent.com/u/9876543?v=4" width="100px;" alt="D"/>
         <br/>
         <sub><b>David Wilson</b></sub>
       </a>
